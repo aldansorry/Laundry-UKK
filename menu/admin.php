@@ -1,0 +1,11 @@
+<li class="<?php if(!isset($_GET['table']) && !isset($_GET['user']) || $_GET['table'] == "dashboard"){echo "active";}else{}?>"><a href="table_dashboard"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Dashboard</a></li>
+<li class="<?php if(isset($_GET['table']) && ($_GET['table'] == 'karyawan' || $_GET['table'] == 'login')){echo "active";}else{}?>"><a href="table_karyawan"><svg class="glyph stroked male user"><use xlink:href="#stroked-male-user"></use></svg>Karyawan</a></li>
+<li class="<?php if(isset($_GET['table']) && $_GET['table'] == 'tarif'){echo "active";}else{}?>"><a href="table_tarif"><svg class="glyph stroked clipboard with paper"><use xlink:href="#stroked-clipboard-with-paper"/></svg>Tarif</a></li>
+<li class="<?php if(isset($_GET['table']) && $_GET['table'] == 'jenislaundry'){echo "active";}else{}?>"><a href="table_jenislaundry"><svg class="glyph stroked tag"><use xlink:href="#stroked-tag"/></svg>Jenis Laundry </a></li>
+<li class="<?php if(isset($_GET['table']) && $_GET['table'] == 'barang'){echo "active";}else{}?>"><a href="table_barang"><svg class="glyph stroked bag"><use xlink:href="#stroked-bag"></use></svg>Barang</a></li>
+<li class="<?php if(isset($_GET['table']) && $_GET['table'] == 'konsumen'){echo "active";}else{}?>"><a href="table_konsumen"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"/></svg>Konsumen</a></li>
+<li class="<?php if(isset($_GET['table']) && $_GET['table'] == 'supplier'){echo "active";}else{}?>"><a href="table_supplier"><svg class="glyph stroked male user "><use xlink:href="#stroked-male-user"/></svg>Supplier</a></li>
+<li class="<?php if(isset($_GET['table']) && $_GET['table'] == 'pembelian'){echo "active";}else{}?>"><a href="table_pembelian"><svg class="glyph stroked key "><use xlink:href="#stroked-key"/></svg>Pembelian</a></li>
+<li class="<?php if(isset($_GET['table']) && $_GET['table'] == 'transaksi'){echo "active";}else{}?>"><a href="table_Transaksi"><svg class="glyph stroked notepad "><use xlink:href="#stroked-notepad"/></svg>Transaksi</a></li>
+<li class="<?php if(isset($_GET['table']) && $_GET['table'] == 'backup'){echo "active";}else{}?>"><a href="table_backup"><svg class="glyph stroked download"><use xlink:href="#stroked-download"/></svg>Backup</a></li>
+		
